@@ -18,3 +18,5 @@ driver = webdriver.Firefox();
 TO:
 
 driver = webdriver.Chrome();
+
+PLACE BOTH OF SCRIPTS ON THE SAME PATH BEFORE LAUNCHING ANY OF THEM.
