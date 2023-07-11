@@ -26,8 +26,6 @@ driver.switch_to.default_content();
 mailfile = open("mail.txt", 'w');
 mailfile.write(mail);
 mailfile.close
-log_path = os.path.join(os.path.dirname(__file__), "geckodriver.log");
-os.remove(log_path);
 
 #Output
 print("Outgoing Mail: "+username.text+altdomain);
