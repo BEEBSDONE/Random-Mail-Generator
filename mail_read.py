@@ -76,6 +76,4 @@ for i, (email_subject, email_timestamp) in enumerate(email_data):
     WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.NAME, "ifinbox")));
 
 # Close the browser
-log_path = os.path.join(os.path.dirname(__file__), "geckodriver.log");
-os.remove(log_path);
 driver.quit();
