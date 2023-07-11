@@ -11,7 +11,7 @@ or if you are using firefox, you need to install geckodriver to control the brow
 
 pip install geckodriver-autoinstaller
 
-GENERATION AND READER SCRIPT IS USING FIREFOX BY DEFAULT.
+GENERATION AND READER SCRIPTS ARE USING FIREFOX BY DEFAULT.
 
 IF YOU ARE USING CHROME, DON'T FORGET TO CHANGE ON BOTH SCRIPTS:
 
